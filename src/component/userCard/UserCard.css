@@ -1,0 +1,31 @@
+.user_card {
+  text-align: left;
+  padding: 15px;
+}
+.user_card ul li {
+  list-style: none;
+  padding: 4px 0;
+  color: #000;
+}
+.user_card ul {
+  border-bottom: 5px solid sandybrown;
+  font-size: 18px;
+  font-weight: 600;
+}
+.users_card img {
+  width: 60px;
+  border-radius: 50%;
+  padding-right: 5px;
+}
+.users_card {
+  margin-top: 10px;
+  box-shadow: 0px 1px 3px #00000099;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.users_card p {
+  font-size: 14px;
+  text-transform: capitalize;
+}

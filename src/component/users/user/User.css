@@ -1,0 +1,28 @@
+.single_user {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -7px 7px 6px #9c9292;
+}
+.single_user .content {
+  padding: 20px;
+  text-align: left;
+}
+.single_user p {
+  padding: 5px 0;
+}
+.single_user button {
+  padding: 8px 18px;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 7px;
+}
+.single_user button svg {
+  padding-right: 8px;
+}
+.single_user button:hover {
+  cursor: pointer;
+}
