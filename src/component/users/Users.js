@@ -8,7 +8,7 @@ const Users = () => {
   const [usersCard, setUsersCard] = useState([]);
 
   useEffect(() => {
-    fetch("http://5e6b742fd708a000160b490e.mockapi.io/api/v1/users")
+    fetch("https://5e6b742fd708a000160b490e.mockapi.io/api/v1/users")
       .then(response => response.json())
       .then(data => setUsers(data))
       .catch(err => console.log(err));
